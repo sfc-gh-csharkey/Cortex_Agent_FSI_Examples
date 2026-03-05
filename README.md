@@ -1,2 +1,2 @@
-# Cortex_Agent_FSI_Examples
+# Cortex Agent FSI Examples
 Work in progress - Cortex Agent for Investment Research and other FSI use cases
