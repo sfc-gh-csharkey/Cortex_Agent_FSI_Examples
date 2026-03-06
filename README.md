@@ -17,9 +17,15 @@ How They Work
 
 ## How to deploy / use the code sample(s)
 
+This repository can deploy an investment research assistant agent. You can ask the agent questions and it can search news and query Snowflake tables related to research intelligence (research note, securities) and trade analytics (securities, trades, market_data)
+
 This repository assumes you have deployed 
 1. Cortex Search Service [News_Search](https://github.com/sfc-gh-csharkey/Cortex_Search_FSI_Examples/tree/main/NEWS_SEARCH)
 2. Cortex Analyst [Research_Intelligence](https://github.com/sfc-gh-csharkey/Cortex_Analyst_FSI_Examples/tree/main/Research_Intelligence) and [Trading_Analytics](https://github.com/sfc-gh-csharkey/Cortex_Analyst_FSI_Examples/tree/main/Trading_Analytics)
 
-These search and analyst services are required because they will be tools the Cortex Analyst can call.
+These search and analyst services are required because they will be tools the research assistant agent can call.
+
+Once the dependencies are deployed run the SQL in the [investment_research_assistant.sql](https://github.com/sfc-gh-csharkey/Cortex_Agent_FSI_Examples/blob/main/investment_research_assistant.sql) file to deploy the agent. 
+
+The agent can be invoked in different ways, an easy way to invoke it is via. the GUI in Snowsight.
 
