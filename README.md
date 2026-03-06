@@ -1,4 +1,25 @@
 # Cortex Agent FSI Examples
 <img width="85" alt="map-user" src="https://img.shields.io/badge/views-000-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-000-green">
 
-Work in progress - Cortex Agent for Investment Research and other FSI use cases
+Cortex Agent is a service that allows you to create AI-powered conversational agents that can answer questions about your data.
+
+Key Concepts
+  * Purpose: Agents act as intelligent assistants that understand your business domain and can query your data using natural language
+  * Instructions: Contain curated guidance about which data sources to use for which types of questions
+  * Tools: Define capabilities the agent can use (e.g., querying semantic views, executing SQL)
+  * Linked Data Sources: Connect to semantic views, tables, or other data assets
+
+How They Work
+  1. You define an agent with instructions about your domain
+  2. The agent maps user questions to appropriate tools and data sources
+  3. Users can ask natural language questions like "What was our revenue last quarter?"
+  4. The agent translates this to the correct queries against your Snowflake data
+
+## How to deploy / use the code sample(s)
+
+This repository assumes you have deployed 
+1. Cortex Search Service [News_Search](https://github.com/sfc-gh-csharkey/Cortex_Search_FSI_Examples/tree/main/NEWS_SEARCH)
+2. Cortex Analyst [Research_Intelligence](https://github.com/sfc-gh-csharkey/Cortex_Analyst_FSI_Examples/tree/main/Research_Intelligence) and [Trading_Analytics](https://github.com/sfc-gh-csharkey/Cortex_Analyst_FSI_Examples/tree/main/Trading_Analytics)
+
+These search and analyst services are required because they will be tools the Cortex Analyst can call.
+
