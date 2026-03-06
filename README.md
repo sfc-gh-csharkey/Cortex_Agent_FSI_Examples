@@ -29,3 +29,10 @@ Once the dependencies are deployed run the SQL in the [investment_research_assis
 
 The agent can be invoked in different ways, an easy way to invoke it is via. the GUI in Snowsight.
 
+To access the GUI select AI/ML services from the side bar, then agents, then select the INVESTMENT_RESEARCH_ASSISTANT agent. 
+
+<img width="900" alt="quick_setup" src="https://github.com/sfc-gh-csharkey/Cortex_Agent_FSI_Examples/blob/main/READ_ME/GUI_1.png">
+
+Enter your question to the agent in via. the prompt area in the bottom right of the screen 
+
+<img width="900" alt="quick_setup" src="https://github.com/sfc-gh-csharkey/Cortex_Agent_FSI_Examples/blob/main/READ_ME/GUI_2.png">
