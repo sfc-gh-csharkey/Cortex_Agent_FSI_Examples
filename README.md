@@ -36,3 +36,9 @@ To access the GUI select AI/ML services from the side bar, then agents, then sel
 Enter your question to the agent in via. the prompt area in the bottom right of the screen 
 
 <img width="900" alt="quick_setup" src="https://github.com/sfc-gh-csharkey/Cortex_Agent_FSI_Examples/blob/main/READ_ME/GUI_2.png">
+
+After you ask the agent a question, if you want to better understand what tools the agent invoked, token count usage you can select the monitoring tab on the top left of the screen, then select the most recent trace. 
+
+You will see a screen similar to the one pictured below
+
+<img width="900" alt="quick_setup" src="https://github.com/sfc-gh-csharkey/Cortex_Agent_FSI_Examples/blob/main/READ_ME/Trace.png">
